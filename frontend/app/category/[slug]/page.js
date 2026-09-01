@@ -10,7 +10,7 @@ export default async function CategoryPage({ params, searchParams }) {
   try {
     data = await getProducts({ category: slug, ordering: searchParams?.sort || '-created_at' });
   } catch (e) {
-    // ignore — render empty state below
+    console.error('Failed to fetch products for category', slug, e);
   }
 
   return (
