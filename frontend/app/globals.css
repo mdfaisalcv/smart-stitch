@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  color: #111111;
+}
+
+.btn-primary {
+  @apply bg-brand text-white px-6 py-3 text-sm uppercase tracking-wide font-medium hover:bg-brand-light transition-colors disabled:opacity-50;
+}
+
+.btn-outline {
+  @apply border border-brand text-brand px-6 py-3 text-sm uppercase tracking-wide font-medium hover:bg-brand hover:text-white transition-colors;
+}
+
+.input {
+  @apply w-full border border-gray-300 px-4 py-2.5 text-sm focus:outline-none focus:border-brand;
+}
