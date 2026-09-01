@@ -21,7 +21,7 @@ export default function OrdersPage() {
     <div className="max-w-3xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-semibold mb-8">My Orders</h1>
       {orders.length === 0 ? (
-        <p className="text-gray-500 text-sm">You haven't placed any orders yet.</p>
+        <p className="text-gray-500 text-sm">You haven&apos;t placed any orders yet.</p>
       ) : (
         <div className="space-y-4">
           {orders.map((o) => (
