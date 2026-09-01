@@ -1,4 +1,4 @@
-# URBANA — Full-Stack E-Commerce Demo
+# SMART-STITCH — Full-Stack E-Commerce Demo
 
 A demo multi-category fashion e-commerce platform, built as:
 
