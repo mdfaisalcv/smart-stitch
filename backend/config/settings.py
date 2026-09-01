@@ -148,3 +148,4 @@ BKASH_APP_KEY = config('BKASH_APP_KEY', default='')
 BKASH_APP_SECRET = config('BKASH_APP_SECRET', default='')
 BKASH_USERNAME = config('BKASH_USERNAME', default='')
 BKASH_PASSWORD = config('BKASH_PASSWORD', default='')
+
