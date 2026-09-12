@@ -1,0 +1,5 @@
+git add .gitattributes
+git rm --cached build.sh
+git add build.sh
+git commit -m "fix line endings for build.sh"
+git push
