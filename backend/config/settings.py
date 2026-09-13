@@ -78,10 +78,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #     }
 # }
 
+# Database - PostgreSQL
 DATABASE_URL = config('DATABASE_URL', default=None)
 
 if DATABASE_URL:
-    # Render (production) — dj_database_url থেকে পুরো URL পার্স হবে
+    # Render (production)
     DATABASES = {
         'default': dj_database_url.parse(
             DATABASE_URL,
@@ -90,7 +91,7 @@ if DATABASE_URL:
         )
     }
 else:
-    # Local development — আগের মতোই
+    # Local development
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
