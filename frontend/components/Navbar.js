@@ -26,7 +26,7 @@ export default function Navbar() {
         </button>
 
         <Link href="/" className="text-2xl font-bold tracking-widest text-brand">
-          URBANA
+          SMART-STITCH
         </Link>
 
         <nav className="hidden md:flex gap-8 text-sm font-medium uppercase tracking-wide">

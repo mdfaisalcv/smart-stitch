@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'URBANA — High-End Lifestyle Retailer (Demo)',
+  title: 'SMART-STITCH — High-End Lifestyle Retailer (Demo)',
   description: 'A demo full-stack e-commerce storefront built with Next.js and Django REST Framework.',
 };
 

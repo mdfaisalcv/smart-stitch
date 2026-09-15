@@ -30,12 +30,12 @@ export default function Footer() {
           <h4 className="text-white font-semibold mb-3">Service Center</h4>
           <ul className="space-y-2">
             <li>+880 9666-774577</li>
-            <li>support@urbana.example</li>
+            <li>support@smart-stitch.example</li>
           </ul>
         </div>
       </div>
       <div className="text-center text-xs text-gray-500 py-4 border-t border-gray-700">
-        © 2026 URBANA. Demo storefront — all product data is placeholder content.
+        © 2026 SMART-Stitch. Demo storefront — all product data is placeholder content.
       </div>
     </footer>
   );

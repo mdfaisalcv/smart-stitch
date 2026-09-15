@@ -19,7 +19,7 @@ export default async function HomePage() {
       {/* Hero */}
       <section className="bg-brand text-white">
         <div className="max-w-7xl mx-auto px-4 py-24 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-widest">URBANA</h1>
+          <h1 className="text-4xl md:text-6xl font-bold tracking-widest">SMART-STITCH</h1>
           <p className="mt-4 text-gray-300 max-w-xl mx-auto">
             High-end lifestyle retail. Demo storefront built with Next.js + Django REST Framework.
           </p>
